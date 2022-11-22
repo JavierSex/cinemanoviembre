@@ -14,3 +14,6 @@ etiquetaDuracion.textContent=peliculaConsultadaEnMemoria.duracion
 
 let etiquetaSinopsis=document.getElementById("sinopsisPelicula")
 etiquetaSinopsis.textContent=peliculaConsultadaEnMemoria.sinopsis
+
+let etiquetaBanner=document.getElementById("bannerPelicula")
+etiquetaBanner.src=peliculaConsultadaEnMemoria.banner
